@@ -8,7 +8,7 @@ $ source .env/bin/activate
 (.env) $ pip install wheel
 (.env) $ pip install -r requirements.txt
 ```
-In `requirements.txt`, a third-party representation learning package is specified, which is downloaded from `github.com` and installed via `pip`.
+In `requirements_gwae.txt`, a third-party representation learning package is specified, which is downloaded from `github.com` and installed via `pip`.
 
 ## How to Train
 Run `train.py` with a setting file to train models.
