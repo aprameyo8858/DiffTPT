@@ -1,44 +1,5 @@
-# Gromov-Wasserstein Autoencoders (GWAE)
 
-This repository contains the official implementation for ["Gromov-Wasserstein Autoencoders" (ICLR 2023)](https://openreview.net/forum?id=sbS10BCtc7).
-
-Gromov-Wasserstein Autoencoders (GWAEs) learn representations by a relaxed Gromov-Wasserstein (GW) objective on a variational autoencoding model.
-The GW metric yields the objective directly aiming at representation learning, and the variational autoencoding model provides a stable way of stochastic training using autoencoding.
-More details are presented in our paper [(pdf)](https://openreview.net/pdf?id=sbS10BCtc7).
-
-<table>
-    <tr>
-        <td>
-            <img src="fig_vae.png" alt="Variational Autoencoder (VAE)">
-        </td>
-        <td>
-            <img src="fig_gwae.png" alt="Gromov-Wasserstein Autoencoders (GWAE)">
-        </td>
-    </tr>
-</table>
-
-## BibTeX citation
-If you use this code in your work, please cite our paper as follows:
-```bibtex
-@inproceedings{Nakagawa2023,
-    title={{Gromov-Wasserstein} Autoencoders},
-    author={Nao Nakagawa and Ren Togo and Takahiro Ogawa and Miki Haseyama},
-    booktitle={Proceedings of International Conference on Learning Representations (ICLR)},
-    year={2023},
-    url={https://openreview.net/forum?id=sbS10BCtc7}
-}
-```
-
-## Installation
-We developed and tested this code in the environment as follows:
-
-- Ubuntu 22.04
-- Python3.10
-- CUDA 11.8
-- 1x GeForce® RTX 2080 Ti
-- 31.2GiB (32GB) RAM
-
-We recommend to run this code under the `venv` envirionment of Python 3.10.
+Recommended to run this code under the `venv` envirionment of Python 3.10.
 The requirements can be easily installed using `pip`.
 ```
 $ python3.10 -m venv .env
