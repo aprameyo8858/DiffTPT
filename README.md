@@ -3,7 +3,7 @@
 ## Overview
 This repository contains multiple components, each with its own set of dependencies and installation instructions. Please follow the appropriate guide for the specific component you're interested in.
 
-### **1. GWA **
+### **1. GWAE **
 To install and set up the GWAE component, follow the instructions in the `README_gwae.md` file located inside the `GWAE` folder.
 
 If you prefer not to follow the detailed installation guide in the `README_gwae.md`, you can instead use the environment provided in the `environment_gwae.yaml` file. This environment contains the dependencies on which the GWAE implementation was tested.
